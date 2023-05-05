@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F7F7F7;
+  }
+  
+  /* Login form styles */
+  .login-form {
+    margin: auto;
+    margin-top: 120px;
+    max-width: 400px;
+    width: 70%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .login-input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFB800;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #E6A100;
+  }
+  
+  .signup-text {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 20px;
+  }
+  
+  .signup-text a {
+    color: #FFB800;
+    text-decoration: none;
+  }
+  
+  .or-text {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .google-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .google-button:hover {
+    background-color: #EEEEEE;
+  }
+  
+  @media (max-width: 375px) {
+    /* For iPhone 11 and other devices with similar screen sizes */
+    .login-form {
+      max-width: 320px;
+    }
+  
+    .login-heading {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .login-input {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  
+    .login-button {
+      font-size: 14px;
+      padding: 8px;
+      margin-top: 15px;
+    }
+  
+    .google-button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
